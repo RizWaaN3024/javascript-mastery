@@ -21,3 +21,23 @@ console.log(typeof(outsideTemp));
 const myFunction = function(){
     console.log("summary");
 }
+
+
+//Memory********************************************
+
+//Stack(USed in Primitive Types) , Heap (Used in Non Primitive Types)
+let name = "Rizwaan";
+let anotherName = "Sahil";
+name = "ansari";
+console.log(name);
+console.log(anotherName);
+
+let userOne = {
+    name:"rizwaan",
+    age:12,
+}
+userTwo = userOne;
+console.log(userTwo);
+userTwo.age = 18;
+console.log(userTwo);
+
