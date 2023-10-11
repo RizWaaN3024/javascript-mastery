@@ -32,3 +32,5 @@ console.log(typeof(newArr));
 const myn = myArr.slice(1, 3);
 console.log(myn);
 //splice manipulates the original array whereas slice does not manipulates the main array
+const myn2 = myArr.splice(1, 3);
+console.log(myn2);
