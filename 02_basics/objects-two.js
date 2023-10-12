@@ -49,3 +49,25 @@ console.log(Object.entries(hello));
 
 //to check whether property/value/keys exitss 
 console.log(hello.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    courseName:"Javascript",
+    price:"2000",
+    courseInstructor:"Rizwaan"
+}
+
+//another syntax to extract values(desstructuring an object)
+const {courseInstructor} = course;
+console.log(courseInstructor);
+
+const {courseInstructor : instructor} = course;
+console.log(instructor);
+
+
+//JSON Object
+
+// {
+//     "name":"Rizwaan",
+//     "course":"Javascript",
+//     "price":"Free",
+// }
