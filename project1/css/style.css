@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 800;
+}
+.button{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+.box{
+    display: flex;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+#gray{
+    background-color: gray;
+}
+#blue{
+    background-color: blue;
+}
+#red{
+    background-color: red;
+}
+#aqua{
+    background-color: aqua;
+}
